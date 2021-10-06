@@ -14,6 +14,7 @@ text = """@*гда я п^ижимал тебя к г^уди св*ей-
 
 #text.replace("@", "К",), ("^", "р",), ("-", ","), ("$", "c"), ("&", "О",), ("+", "Н"), ("*", "о")
 #text.replace("@", "К",).replace("^", "р",).replace("-", ",").replace("$", "c").replace("&", "О",).replace("+", "Н").replace("*", "о")
-print(text.replace)
+a = text.replace("@", "К",).replace("^", "р",).replace("-", ",").replace("$", "c").replace("&", "О",).replace("+", "Н").replace("*", "о")
+print(a)
 #crypto_keys = (("К", "@",), ("р", "^",), (",", "-"), ("c", "$"), ("О", "&",), ("Н", "+"), ("о", "*"))
 
